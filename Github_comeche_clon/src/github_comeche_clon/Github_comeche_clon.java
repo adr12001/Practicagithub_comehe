@@ -21,6 +21,14 @@ public class Github_comeche_clon {
  
         System.out.println(caracter);
     }
+    static boolean metodoBoolean(boolean n, String mensaje)//Método con dos parámetros
+{
+    if(n)//Usamos el parámetro en el método
+    {
+        System.out.println(mensaje);//Mostramos el mensaje
+    }
+    return n; //Usamos el parámetro como valor a retornar
+}
     }
     
 
