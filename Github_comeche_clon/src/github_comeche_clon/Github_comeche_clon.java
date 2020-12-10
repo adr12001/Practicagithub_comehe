@@ -21,6 +21,16 @@ public class Github_comeche_clon {
  
         System.out.println(caracter);
     }
+    void procedimiento(int n, String nombre) //Notar el void
+{
+    if(n > 0 && !nombre.equals(""))//usamos los dos parámetros
+    {
+        System.out.println("hola " + nombre);
+        return; //Si no ponemos este return se mostraría hola y luego adiós
+    }
+    //También podríamos usar un else en vez del return
+    System.out.println("adios");
+}
     static boolean metodoBoolean(boolean n, String mensaje)//Método con dos parámetros
 {
     if(n)//Usamos el parámetro en el método
